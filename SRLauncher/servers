@@ -1,0 +1,53 @@
+SRLauncher
+│
+├── launcher
+│   ├── ui
+│   │   ├── MainMenu
+│   │   ├── PlayScreen
+│   │   ├── AccountManager
+│   │   ├── ModManager
+│   │   └── Settings
+│   │
+│   ├── auth
+│   │   ├── local
+│   │   │   └── LocalAccountManager.java
+│   │   │
+│   │   ├── elyby
+│   │   │   └── ElyByAuth.java
+│   │   │
+│   │   └── microsoft
+│   │       └── MicrosoftAuth.java
+│   │
+│   ├── minecraft
+│   │   ├── version
+│   │   │   └── VersionManager.java
+│   │   │
+│   │   ├── fabric
+│   │   │   └── FabricInstaller.java
+│   │   │
+│   │   └── launch
+│   │       └── GameStarter.java
+│   │
+│   └── modpack
+│       └── ModPackInstaller.java
+│
+├── server
+│   ├── creator
+│   │   └── ServerCreator.java
+│   │
+│   ├── manager
+│   │   ├── StartServer.java
+│   │   ├── StopServer.java
+│   │   └── RestartServer.java
+│   │
+│   ├── config
+│   │   └── server.properties
+│   │
+│   └── plugins
+│
+├── resources
+│   ├── icons
+│   ├── themes
+│   └── language
+│
+└── build
