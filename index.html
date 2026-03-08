@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Rocket Launcher</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>🚀 Rocket Launcher</h1>
+
+<label>Minecraft Edition</label>
+<select id="edition">
+<option>Java</option>
+<option>Bedrock</option>
+</select>
+
+<br><br>
+
+<label>Server Type</label>
+<select id="type">
+<option>Vanilla</option>
+<option>Fabric</option>
+<option>Optifine</option>
+</select>
+
+<br><br>
+
+<label>Minecraft Version</label>
+<input id="version" placeholder="1.20.1">
+
+<br><br>
+
+<label>Player Slots</label>
+<input id="players" type="number" value="20">
+
+<br><br>
+
+<button onclick="startServer()">Start Server</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>
